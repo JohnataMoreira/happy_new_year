@@ -1,0 +1,43 @@
+.header{
+    background-color: brown;
+    height: 100px;
+    &__container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &__intro{
+
+            &__image{
+                width: 350px;
+                height: 350px;
+                max-width: 100%;
+            }
+
+            .title--big{
+                color: red;
+                margin-right: 120px;            }
+        }
+
+        &__menu{
+            justify-content: space-between;
+            &__links{
+                display: flex;
+                text-align: center;
+                justify-content: space-around;
+
+                :nth-child(2){
+                    margin-left: 20px;
+                    margin-right: 20px;
+                }
+                &__item{
+                    
+                    .btn{
+                        background-color: blue;
+                        color: white;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

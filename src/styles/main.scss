@@ -1,6 +1,9 @@
 @use "reset";
 @use "header";
 @use "hero";
+@use 'galeria';
+@use 'video';
+@use 'footer';
 
 body {
     background-color: rgb(191, 253, 166);
